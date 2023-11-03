@@ -29,20 +29,25 @@
                 </HorizontalStackLayout>
             </Border>
             <VerticalStackLayout>
-                <Border
+                    <Border
                     Padding="2"
                     Margin="2"
                     BackgroundColor="AliceBlue">
-
-                    <FlexLayout>
-                        <Image 
-
+                        <Grid>
+                            <Grid.RowDefinitions>
+                                <RowDefinition />
+                                <RowDefinition />
+                            </Grid.RowDefinitions>
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="Auto" />
+                                <ColumnDefinition />
+                            </Grid.ColumnDefinitions>
+                            <Image Grid.Column="0"  
                         Source="icono_user.png"
-                        MaximumWidthRequest="30"
-                         Margin="5"
+                        MaximumWidthRequest="40"
                         />
-                        <VerticalStackLayout>
-                            <Label
+                            <VerticalStackLayout Grid.Column="1" Grid.Row="0">
+                                <Label 
                         Padding="4"
                         Text="Isabel"
                         TextColor="Black"
@@ -50,28 +55,314 @@
                         FontFamily="Roboto"
                         FontAttributes="Bold"
                         Margin="4"/>
-                            <Label
+                                <Label 
                             FontFamily="Roboto"
                             Margin="5"
                             Padding="4"
                             TextColor="Black"
                             Text="Lorem fistrum torpedo qué dise usteer a gramenawer condemor pecador caballo blanco caballo negroorl te va a hasé pupitaa papaar papaar está la cosa muy malar tiene musho peligro. A gramenawer fistro te voy a borrar el cerito se calle ustée amatomaa a peich jarl pecador jarl ahorarr ahorarr. Papaar papaar qué dise usteer ese pedazo de la caidita. A gramenawer ese pedazo de a wan al ataquerl. "/>
-                        </VerticalStackLayout>
-                    </FlexLayout>
-                </Border>
-                <Border
+                            </VerticalStackLayout>
+                        </Grid>
+                    </Border>
+                    <Border
                     Padding="2"
                     Margin="2"
                     BackgroundColor="AliceBlue">
-
-                    <FlexLayout>
-                        <Image 
+                        <Grid>
+                            <Grid.RowDefinitions>
+                                <RowDefinition />
+                                <RowDefinition />
+                            </Grid.RowDefinitions>
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="Auto" />
+                                <ColumnDefinition />
+                            </Grid.ColumnDefinitions>
+                            <Image Grid.Column="0"  
                         Source="icono_user.png"
-                        MaximumWidthRequest="30"
-                            Margin="5"
+                        MaximumWidthRequest="40"
                         />
-                        <VerticalStackLayout>
-                            <Label
+                            <VerticalStackLayout Grid.Column="1" Grid.Row="0">
+                                <Label 
+                        Padding="4"
+                        Text="Yeray"
+                        TextColor="Black"
+                        FontSize="Default"
+                        FontFamily="Roboto"
+                        FontAttributes="Bold"
+                        Margin="4"/>
+                                <Label 
+                            FontFamily="Roboto"
+                            Margin="5"
+                            Padding="4"
+                            TextColor="Black"
+                            Text="qué dise usteer a gramenawer condemor pecador caballo blanco caballo negroorl te va a hasé pupitaa papaar papaar está la cosa muy malar tiene musho peligro. A gramenawer fistro te voy a borrar el cerito se calle ustée amatomaa a peich jarl pecador jarl ahorarr ahorarr. Papaar papaar qué dise usteer ese pedazo de la caidita. A gramenawer ese pedazo de a wan al ataquerl. "/>
+                            </VerticalStackLayout>
+                        </Grid>
+                    </Border>
+                    <Border
+                    Padding="2"
+                    Margin="2"
+                    BackgroundColor="AliceBlue">
+                        <Grid>
+                            <Grid.RowDefinitions>
+                                <RowDefinition />
+                                <RowDefinition />
+                            </Grid.RowDefinitions>
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="Auto" />
+                                <ColumnDefinition />
+                            </Grid.ColumnDefinitions>
+                            <Image Grid.Column="0"  
+                        Source="icono_user.png"
+                        MaximumWidthRequest="40"
+                        />
+                            <VerticalStackLayout Grid.Column="1" Grid.Row="0">
+                                <Label 
+                        Padding="4"
+                        Text="Alexandro"
+                        TextColor="Black"
+                        FontSize="Default"
+                        FontFamily="Roboto"
+                        FontAttributes="Bold"
+                        Margin="4"/>
+                                <Label 
+                            FontFamily="Roboto"
+                            Margin="5"
+                            Padding="4"
+                            TextColor="Black"
+                            Text="Lorem fistrum A gramenawer fistro te voy a borrar el cerito se calle ustée amatomaa a peich jarl pecador jarl ahorarr ahorarr. Papaar papaar qué dise usteer ese pedazo de la caidita. A gramenawer ese pedazo de a wan al ataquerl. "/>
+                            </VerticalStackLayout>
+                        </Grid>
+                    </Border>
+                    <Border
+                    Padding="2"
+                    Margin="2"
+                    BackgroundColor="AliceBlue">
+                        <Grid>
+                            <Grid.RowDefinitions>
+                                <RowDefinition />
+                                <RowDefinition />
+                            </Grid.RowDefinitions>
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="Auto" />
+                                <ColumnDefinition />
+                            </Grid.ColumnDefinitions>
+                            <Image Grid.Column="0"  
+                        Source="icono_user.png"
+                        MaximumWidthRequest="40"
+                        />
+                            <VerticalStackLayout Grid.Column="1" Grid.Row="0">
+                                <Label 
+                        Padding="4"
+                        Text="Isabel"
+                        TextColor="Black"
+                        FontSize="Default"
+                        FontFamily="Roboto"
+                        FontAttributes="Bold"
+                        Margin="4"/>
+                                <Label 
+                            FontFamily="Roboto"
+                            Margin="5"
+                            Padding="4"
+                            TextColor="Black"
+                            Text="A gramenawer fistro te voy a borrar el cerito se calle ustée amatomaa a peich jarl pecador jarl ahorarr ahorarr. Papaar papaar qué dise usteer ese pedazo de la caidita. A gramenawer ese pedazo de a wan al ataquerl. "/>
+                            </VerticalStackLayout>
+                        </Grid>
+                    </Border>
+                    <Border
+                    Padding="2"
+                    Margin="2"
+                    BackgroundColor="AliceBlue">
+                        <Grid>
+                            <Grid.RowDefinitions>
+                                <RowDefinition />
+                                <RowDefinition />
+                            </Grid.RowDefinitions>
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="Auto" />
+                                <ColumnDefinition />
+                            </Grid.ColumnDefinitions>
+                            <Image Grid.Column="0"  
+                        Source="icono_user.png"
+                        MaximumWidthRequest="40"
+                        />
+                            <VerticalStackLayout Grid.Column="1" Grid.Row="0">
+                                <Label 
+                        Padding="4"
+                        Text="Marcos"
+                        TextColor="Black"
+                        FontSize="Default"
+                        FontFamily="Roboto"
+                        FontAttributes="Bold"
+                        Margin="4"/>
+                                <Label 
+                            FontFamily="Roboto"
+                            Margin="5"
+                            Padding="4"
+                            TextColor="Black"
+                            Text="Lorem fistrum torpedo qué dise usteer a gramenawer condemor pecador caballo blanco caballo negroorl te va a hasé pupitaa papaar papaar está la cosa muy malar tiene musho peligro. A gramenawer fistro te voy a borrar el cerito se calle ustée amatomaa a peich jarl pecador jarl ahorarr ahorarr. Papaar papaar qué dise usteer ese pedazo de la caidita. A gramenawer ese pedazo de a wan al ataquerl. "/>
+                            </VerticalStackLayout>
+                        </Grid>
+                    </Border>
+                    <Border
+                    Padding="2"
+                    Margin="2"
+                    BackgroundColor="AliceBlue">
+                        <Grid>
+                            <Grid.RowDefinitions>
+                                <RowDefinition />
+                                <RowDefinition />
+                            </Grid.RowDefinitions>
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="Auto" />
+                                <ColumnDefinition />
+                            </Grid.ColumnDefinitions>
+                            <Image Grid.Column="0"  
+                        Source="icono_user.png"
+                        MaximumWidthRequest="40"
+                        />
+                            <VerticalStackLayout Grid.Column="1" Grid.Row="0">
+                                <Label 
+                        Padding="4"
+                        Text="Paco Paquito"
+                        TextColor="Black"
+                        FontSize="Default"
+                        FontFamily="Roboto"
+                        FontAttributes="Bold"
+                        Margin="4"/>
+                                <Label 
+                            FontFamily="Roboto"
+                            Margin="5"
+                            Padding="4"
+                            TextColor="Black"
+                            Text="te va a hasé pupitaa papaar papaar está la cosa muy malar tiene musho peligro. A gramenawer fistro te voy a borrar el cerito se calle ustée amatomaa a peich jarl pecador jarl ahorarr ahorarr. Papaar papaar qué dise usteer ese pedazo de la caidita. A gramenawer ese pedazo de a wan al ataquerl. "/>
+                            </VerticalStackLayout>
+                        </Grid>
+                    </Border>
+                    <Border
+                    Padding="2"
+                    Margin="2"
+                    BackgroundColor="AliceBlue">
+                        <Grid>
+                            <Grid.RowDefinitions>
+                                <RowDefinition />
+                                <RowDefinition />
+                            </Grid.RowDefinitions>
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="Auto" />
+                                <ColumnDefinition />
+                            </Grid.ColumnDefinitions>
+                            <Image Grid.Column="0"  
+                        Source="icono_user.png"
+                        MaximumWidthRequest="40"
+                        />
+                            <VerticalStackLayout Grid.Column="1" Grid.Row="0">
+                                <Label 
+                        Padding="4"
+                        Text="fernando"
+                        TextColor="Black"
+                        FontSize="Default"
+                        FontFamily="Roboto"
+                        FontAttributes="Bold"
+                        Margin="4"/>
+                                <Label 
+                            FontFamily="Roboto"
+                            Margin="5"
+                            Padding="4"
+                            TextColor="Black"
+                            Text="Lorem fistrum torpedo qué dise usteer a gramenawer condemor pecador caballo blanco caballo negroorl te va a hasé pupitaa papaar papaar está la cosa muy malar tiene musho peligro. A gramenawer fistro te voy a borrar el cerito se calle ustée amatomaa a peich jarl pecador jarl ahorarr ahorarr. Papaar papaar qué dise usteer ese pedazo de la caidita. A gramenawer ese pedazo de a wan al ataquerl. "/>
+                            </VerticalStackLayout>
+                        </Grid>
+                    </Border>
+                    <Border
+                    Padding="2"
+                    Margin="2"
+                    BackgroundColor="AliceBlue">
+                        <Grid>
+                            <Grid.RowDefinitions>
+                                <RowDefinition />
+                                <RowDefinition />
+                            </Grid.RowDefinitions>
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="Auto" />
+                                <ColumnDefinition />
+                            </Grid.ColumnDefinitions>
+                            <Image Grid.Column="0"  
+                        Source="icono_user.png"
+                        MaximumWidthRequest="40"
+                        />
+                            <VerticalStackLayout Grid.Column="1" Grid.Row="0">
+                                <Label 
+                        Padding="4"
+                        Text="Pablo"
+                        TextColor="Black"
+                        FontSize="Default"
+                        FontFamily="Roboto"
+                        FontAttributes="Bold"
+                        Margin="4"/>
+                                <Label 
+                            FontFamily="Roboto"
+                            Margin="5"
+                            Padding="4"
+                            TextColor="Black"
+                            Text="Lorem fistrum torpedo qué dise usteer a gramenawer condemor pecador caballo blanco caballo negroorl te va a hasé pupitaa papaar papaar está la cosa muy malar tiene musho peligro."/>
+                            </VerticalStackLayout>
+                        </Grid>
+                    </Border>
+                    <Border
+                    Padding="2"
+                    Margin="2"
+                    BackgroundColor="AliceBlue">
+                        <Grid>
+                            <Grid.RowDefinitions>
+                                <RowDefinition />
+                                <RowDefinition />
+                            </Grid.RowDefinitions>
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="Auto" />
+                                <ColumnDefinition />
+                            </Grid.ColumnDefinitions>
+                            <Image Grid.Column="0"  
+                        Source="icono_user.png"
+                        MaximumWidthRequest="40"
+                        />
+                            <VerticalStackLayout Grid.Column="1" Grid.Row="0">
+                                <Label 
+                        Padding="4"
+                        Text="Migue"
+                        TextColor="Black"
+                        FontSize="Default"
+                        FontFamily="Roboto"
+                        FontAttributes="Bold"
+                        Margin="4"/>
+                                <Label 
+                            FontFamily="Roboto"
+                            Margin="5"
+                            Padding="4"
+                            TextColor="Black"
+                            Text="caballo blanco caballo negroorl te va a haséosa muy malar tiene musho peligro. A gramenawer fistro te voy a borrar el cerito se calle ustée amatomaa a peich jarl pecador jarl ahorarr ahorarr. Papaar papaar qué dise usteer ese pedazo de la caidita. A gramenawer ese pedazo de a wan al ataquerl. "/>
+                            </VerticalStackLayout>
+                        </Grid>
+                    </Border>
+                    <Border
+                    Padding="2"
+                    Margin="2"
+                    BackgroundColor="AliceBlue">
+                        <Grid>
+                            <Grid.RowDefinitions>
+                                <RowDefinition />
+                                <RowDefinition />
+                            </Grid.RowDefinitions>
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="Auto" />
+                                <ColumnDefinition />
+                            </Grid.ColumnDefinitions>
+                            <Image Grid.Column="0"  
+                        Source="icono_user.png"
+                        MaximumWidthRequest="40"
+                        />
+                            <VerticalStackLayout Grid.Column="1" Grid.Row="0">
+                                <Label 
                         Padding="4"
                         Text="Luisota"
                         TextColor="Black"
@@ -79,166 +370,15 @@
                         FontFamily="Roboto"
                         FontAttributes="Bold"
                         Margin="4"/>
-                            <Label
-                            FontFamily="Roboto"
-                            Padding="4"
-                            TextColor="Black"
-                            Text=" Amatomaa condemor está la cosa muy malar llevame al sircoo me cago en tus muelas me cago en tus muelas pupita ese que llega sexuarl a wan "/>
-                        </VerticalStackLayout>
-                    </FlexLayout>
-                </Border>
-                <Border
-                    Padding="2"
-                    Margin="2"
-                    BackgroundColor="AliceBlue">
-
-                    <FlexLayout>
-                        <Image 
-                        Source="icono_user.png"
-                        MaximumWidthRequest="30"
-                            Margin="5"
-                        />
-                        <VerticalStackLayout>
-                            <Label
-                        Padding="4"
-                        Text="Miguel Hernandez"
-                        TextColor="Black"
-                        FontSize="Default"
-                        FontFamily="Roboto"
-                        FontAttributes="Bold"
-                        Margin="4"/>
-                            <Label
+                                <Label 
                             FontFamily="Roboto"
                             Margin="5"
                             Padding="4"
                             TextColor="Black"
-                            Text="Por la gloria de mi madre condemor a peich apetecan la caidita a peich. Apetecan mamaar se calle ustée llevame al sircoo amatomaa pecador. Al ataquerl a wan ahorarr sexuarl quietooor diodenoo."/>
-                        </VerticalStackLayout>
-                    </FlexLayout>
-                </Border>
-
-                <Border
-                    Padding="2"
-                    Margin="2"
-                    BackgroundColor="AliceBlue">
-
-                    <FlexLayout>
-                        <Image 
-                        Source="icono_user.png"
-                        MaximumWidthRequest="30"
-                            Margin="5"
-                        />
-                        <VerticalStackLayout>
-                            <Label
-                        Padding="4"
-                        Text="Pedro Gallardo"
-                        TextColor="Black"
-                        FontSize="Default"
-                        FontFamily="Roboto"
-                        FontAttributes="Bold"
-                        Margin="4"/>
-                            <Label
-                            FontFamily="Roboto"
-                            Margin="5"
-                            Padding="4"
-                            TextColor="Black"
-                            Text="A peich está la cosa muy malar pecador diodeno fistro diodenoo amatomaa a gramenawer apetecan qué dise usteer a wan. Se calle ustée jarl benemeritaar te voy a borrar el cerito no puedor amatomaa. Fistro pupita tiene musho peligro condemor condemor."/>
-                        </VerticalStackLayout>
-                    </FlexLayout>
-                </Border>
-
-                <Border
-                    Padding="2"
-                    Margin="2"
-                    BackgroundColor="AliceBlue">
-
-                    <FlexLayout>
-                        <Image 
-                        Source="icono_user.png"
-                        MaximumWidthRequest="30"
-                            Margin="5"
-                        />
-                        <VerticalStackLayout>
-                            <Label
-                        Padding="4"
-                        Text="Juanma Gallego"
-                        TextColor="Black"
-                        FontSize="Default"
-                        FontFamily="Roboto"
-                        FontAttributes="Bold"
-                        Margin="4"/>
-                            <Label
-                            FontFamily="Roboto"
-                            Margin="5"
-                            Padding="4"
-                            TextColor="Black"
-                            Text="Quietooor al ataquerl va usté muy cargadoo me cago en tus muelas de la pradera quietooor se calle ustée condemor al ataquerl por la gloria de mi madre tiene musho peligro. Se calle ustée ese pedazo de a peich torpedo te voy a borrar el cerito tiene musho peligro caballo blanco caballo negroorl qué dise usteer no te digo trigo por no llamarte Rodrigor."/>
-                        </VerticalStackLayout>
-                    </FlexLayout>
-                </Border>
-
-                <Border
-                    Padding="2"
-                    Margin="2"
-                    BackgroundColor="AliceBlue">
-
-                    <FlexLayout>
-                        <Image 
-                        Source="icono_user.png"
-                        MaximumWidthRequest="30"
-                            Margin="5"
-                        />
-                        <VerticalStackLayout>
-                            <Label
-                        Padding="4"
-                        Text="Fernando Garcia"
-                        TextColor="Black"
-                        FontSize="Default"
-                        FontFamily="Roboto"
-                        FontAttributes="Bold"
-                        Margin="4"/>
-                            <Label
-                            FontFamily="Roboto"
-                            Margin="5"
-                            Padding="4"
-                            TextColor="Black"
-                            Text="Ahorarr pupita la caidita a peich me cago en tus muelas ese pedazo de. Ahorarr se calle ustée fistro papaar papaar condemor a gramenawer. Caballo blanco caballo negroorl apetecan está la cosa muy malar ese pedazo de a wan está la cosa muy malar benemeritaar llevame al sircoo. Te voy a borrar el cerito me cago en tus muelas de la pradera te va a hasé pupitaa ese pedazo de mamaar a peich diodeno qué dise usteer apetecan."/>
-                        </VerticalStackLayout>
-                    </FlexLayout>
-                </Border>
-
-                <Border
-                    Padding="2"
-                    Margin="2"
-                    BackgroundColor="AliceBlue">
-
-                    <FlexLayout>
-                        <Image 
-                        Source="icono_user.png"
-                        MaximumWidthRequest="30"
-                            Margin="5"
-                        />
-                        <VerticalStackLayout>
-                            <Label
-                        Padding="4"
-                        Text="Juanita Perez"
-                        TextColor="Black"
-                        FontSize="Default"
-                        FontFamily="Roboto"
-                        FontAttributes="Bold"
-                        Margin="4"/>
-                            <Label
-                            FontFamily="Roboto"
-                            Margin="5"
-                            Padding="4"
-                            TextColor="Black"
-                            Text="Benemeritaar está la cosa muy malar te voy a borrar el cerito diodenoo te voy a borrar el cerito diodeno sexuarl mamaar ese hombree jarl. Tiene musho peligro está la cosa muy malar tiene musho peligro te voy a borrar el cerito jarl de la pradera no puedor ese pedazo de caballo blanco caballo negroorl apetecan a gramenawer. "/>
-                        
-                        </VerticalStackLayout>
-                        
-                    </FlexLayout>
-                    
-                </Border>
+                            Text="condemor pecador caballo blanco caballo negroorl te va a hasé pupitaa papaar papaar está la cosa muy malar tiene musho peligro. A gramenawer fistro te voy a borrar el cerito se calle ustée amatomaa a peich jarl pecador jarl ahorarr ahorarr. Papaar papaar qué dise usteer ese pedazo de la caidita. A gramenawer ese pedazo de a wan al ataquerl. "/>
+                            </VerticalStackLayout>
+                        </Grid>
+                    </Border>
 
 
 
